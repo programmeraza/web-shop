@@ -68,23 +68,23 @@ const Header = () => {
 
                     <div className={isOpen ? 'header__menu active' : 'header__menu'}>
                         <img src="/logo.png" alt="logo" />
-                            <ul className="header__ul">
-                                <Link className='header__link'>
+                            <ul className="header__ul-burger">
+                                <Link className='header__link-burger'>
                                     Одежда
                                 </Link>
-                                <Link className='header__link'>
+                                <Link className='header__link-burger'>
                                     Обувь
                                 </Link>
-                                <Link className='header__link'>
+                                <Link className='header__link-burger'>
                                     Аксессуары
                                 </Link>
-                                <Link className='header__link'>
+                                <Link className='header__link-burger'>
                                     Калькулятор стоимости
                                 </Link>
-                                <Link className='header__link'>
+                                <Link className='header__link-burger'>
                                     Помощь
                                 </Link>
-                                <Link className='header__link'>
+                                <Link className='header__link-burger'>
                                     Подобрать размер
                                 </Link>
                             </ul>
